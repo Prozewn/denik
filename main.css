@@ -20,9 +20,17 @@ h2{
     text-align: center;
 }
 
+.dark-mode{
+    background-color: #041C32;
+    color: white;
+}
 
+button{
+    width: 100%;
+    font-size: 20px;
+}
 
-@media screen and (-webkit-min-device-pixel-ratio: 3) {
+@media screen and (-webkit-min-device-pixel-ratio: 3){
     .obsah{
         width: 100%;
         margin-left: 0;
