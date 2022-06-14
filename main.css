@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.obsah{
+    width: 50%;
+    margin-left: 25%;
+}
+.obsah p{
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .obsah{
+        width: 100%;
+        margin-left: 0;
+    }
+}
